@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Shopping List</string>
+    <string name="app_name">Assignment1_AnthonyLoughlin</string>
+    <string name="button_addList">Add to list</string>
+    <string name="activity2_name">Add to shopping list</string>
+    <string name="item_one">Eggs</string>
+    <string name="item_two">Milk</string>
+    <string name="item_three">Cheese</string>
+    <string name="item_four">Apples</string>
+    <string name="item_five">Rice</string>
+    <string name="item_six">Chicken</string>
+    <string name="item_seven">Bananas</string>
+    <string name="item_eight">Spaghetti</string>
+    <string name="item_nine">Steak</string>
+    <string name="item_ten">Vodka</string>
 </resources>

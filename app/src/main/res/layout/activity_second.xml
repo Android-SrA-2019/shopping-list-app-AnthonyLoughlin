@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    tools:context="ca.nbcc.shoppinglist.SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_eggs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:onClick="AddItem"
+            android:text="@string/item_one" />
+
+        <Button
+            android:id="@+id/button_milk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:onClick="AddItem"
+            android:text="@string/item_two" />
+
+        <Button
+            android:id="@+id/button_cheese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:onClick="AddItem"
+            android:text="@string/item_three" />
+
+        <Button
+            android:id="@+id/button_apples"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:onClick="AddItem"
+            android:text="@string/item_four" />
+
+        <Button
+            android:id="@+id/button_rice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:onClick="AddItem"
+            android:text="@string/item_five" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_chicken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:onClick="AddItem"
+            android:text="@string/item_six" />
+
+        <Button
+            android:id="@+id/button_bananas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:onClick="AddItem"
+            android:text="@string/item_seven" />
+
+        <Button
+            android:id="@+id/button_spaghetti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:onClick="AddItem"
+            android:text="@string/item_eight" />
+
+        <Button
+            android:id="@+id/button_steak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:onClick="AddItem"
+            android:text="@string/item_nine" />
+
+        <Button
+            android:id="@+id/button_vodka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:onClick="AddItem"
+            android:text="@string/item_ten" />
+    </LinearLayout>
+</LinearLayout>
